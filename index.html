@@ -2,55 +2,88 @@
 <html lang="cs">
 
 <head>
+    <link rel="stylesheet" href="./css/uvodni.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operační systémy</title>
-    <link rel="stylesheet" href="../css/styly.css">
 </head>
+<nav>
+    <ul>
+        <li><a href="./a/index.html">Programové a datové soubory</a></li>
+        <li><a href="./b/index.html">Operační systémy</a></li>
+        <li><a href="./c/index.html">Ovladače, firmware a utility</a></li>
+        <li><a href="./d/index.html">Aplikační software</a></li>
+        <li><a href="./e/index.html">Instalace programů</a></li>
+        <li><a href="./f/index.html">Softwarová licence</a></li>
+    </ul>
+</nav>
 
 <body>
     <header>
-        <h1>Operační systémy</h1>
+        <h1>Programy a data</h1>
+        <p>Úvodní stránka</p>
     </header>
-</body>
-<nav class="topnav">
-    <a class="active" href="../index.html">Home</a>
-</nav>
-<main>
-    <h1 id="programove-vybaveni">Programové vybavení</h1>
-    <p>
-        Programové vybavení (software) je podmínkou využití technického vybavení (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro konkrétní hardware.<br
-        V okamžiku, kdy počítače začaly být produkovány ve větších sériích, objevila se i potřeba vývoje speciálních systémových programů, které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh aplikací, tj. programů určených pro konkrétní účely.
-    </p>
-    <p>
-        Základním programovým vybavením počítačů (a jim podobných zařízení) jsou operační systémy (OS - Operation System). Jejich nejdůležitější funkcí je zajištění řízení hardware. To má na starosti jádro systému, které tvoří subsystémy pro správu procesoru, paměti, diskových médií a dalších zařízení. Jádro pro své operace vyžaduje instalaci ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje technické vybavení běžícím procesům.
-    </p>
-   <h2 id="aplikacni-rozhrani"> Aplikační rozharní</h2>
-   <p>
-    Nezbytnou součástí operačních systémů je aplikační rozhraní (API - Application Programming Interface), které nabízí programátorům prostředky pro vývoj aplikací pro daný systém. Uživatelské rozhraní slouží k ovládání OS a k spouštění aplikací. Zatímco starší OS se ovládaly častěji prostřednictvím příkazového řádku (CLI - Command Line Interface), moderní systémy poskytují grafické uživatelské rozhraní (GUI - Graphic User Interface) založené na oknech a grafických prvcích.
-   </p>
-   <p>
-    Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém UNIX, který se od 70. let používal v sálových počítačích i minipočítačích. Jeho principy využily i další OS. V 80. letech minulého století si vzájemně konkurovaly systémy firmy Microsoft (MS DOS), instalované na počítačích IBM PC, a firmy Apple (Mac OS), která rozvinula myšlenky vývojářů společnosti Xerox a začala jako první používat grafické uživatelské rozhraní. To se stalo také základem MS Windows, jenž hrál prim především na přelomu tisíciletí. V té době už získával stále větší popularitu volně šiřitelný systém Linux, pojmenovaný podle svého tvůrce Linuse Torvaldse a staršího vzoru UNIXu. Zatímco operační systémy Windows dominují především na osobních počítačích v domácnostech i kancelářích, různé linuxové distribuce jsou velmi často instalovány na síťových serverech.
-   </p>
-    <h3 id="soucasne-operační-systémy">Současné operační systémy</h3>
-    <p>
-        Současné <a href="https://cs.wikipedia.org/wiki/Operační_systém"> OS </a> rozdělujeme nejčastěji podle typů zařízení, pro která jsou určeny. Existují systémy pro síťové servery (např. MS Windows 2012 Server, Linux, Unix), pro běžné osobní počítače - desktopy, notebooky, netbooky (např. MS Windows, Linux Ubuntu, OS X), pro mobilní zařízení (Android, Symbian, Windows Phone, iOS) i speciální <a href="https://cs.wikipedia.org/wiki/Operační_systém_reálného_času">Operační systém reálného času</a>  (Real-Time Operating System - systémy reálného času), které zajišťují provoz „chytrých“ zařízení, jakými jsou robotické kamery využívané pro sportovní přenosy, měřící přístroje na orbitálních stanicích nebo jednotky pro řízení různých průmyslových procesů. Zatímco u desktopového systému je možné pozdržet dokončení některých operací a provádět paralelně jiné operace, v případě RTOS je nezbytné provádět operace bez prodlevy a s vysokou spolehlivostí v reálném čase.
-    </p>
-<img src="../img/Operating_system_placement-cs.jpg" alt="Operační systémy" width="300"> 
-<figcaption>
-Operační systémy
-</figcaption>
+    <main>
+        <h2>Obsah stránek</h2>
+        <div class="flex-container">
+            <div>
+                <h3> <a href="./a/index.html">Programové a datové soubory</a></h3>
+                <ul>
+                    <li><a href="a/index.html#soubory-a-adresare">Soubory a adresáře</a></li>
+                    <li><a href="a/index.html#programove-soubory">Programové soubory</a></li>
+                    <li><a href="a/index.html#datove-soubory">Datové soubory</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3><a href="./b/index.html">Operační systémy</a></h3>
+                <ul>
+                    <li><a href="b/index.html#programove-vybaveni">Programové vybavení</a></li>
+                    <li><a href="b/index.html#aplikacni-rozhrani">Aplikační rozhraní</a></li>
+                    <li><a href="b/index.html#soucasne-operacni-systemy">Současné operační systémy</a></li>
+                </ul>
+            </div>
+            <div>   
+                <h3><a href="c/index.html">Ovladače, firmware a utility</a></h3>
+                <ul>
+                    <li><a href="c/index.html#ovladace">Ovladače</a></li>
+                    <li><a href="c/index.html#firmware">Firmware</a></li>
+                    <li><a href="c/index.html#utility">Utility</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3><a href="d/index.html">Aplikační software</a></h3>
+                <ul>
+                    <li><a href="d/index.html#aplikacni-software">aplikacni software</a></li>
+                    <li><a href="d/index.html#multimedialni-programy">multimedialni programy</a></li>
+                    <li><a href="d/index.html#informacni-a-databazove-sys">informacni a databazove systemy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3><a href="e/index.html">Instalace programů</a></h3>
+                <ul>
+                    <li><a href="e/index.html#instalace/odinstalace-programu">instalace/odinstalace programu</a></li>
+                    <li><a href="e/index.html#lokalizace">lokalizace</a></li>
+                    <li><a href="e/index.html#verze-programu">verze programu</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3><a href="f/index.html">Softwarová licence</a></h3>
+                <ul>
+                    <li><a href="f/index.html#softwarova-licence">softwarova licence</a></li>
+                    <li><a href="f/index.html#demoverze">demoverze</a></li>
+                    <li><a href="f/index.html#public-domain">public domain</a></li>
+                </ul>
+            </div>              
+        </div>
+    </main>
 
-</main>
+    <footer>
+        <hr>
+        <p>&copy; 2024 - Richard Gilík, IT1 </p>
+        <p><a href="https://www.sspu-opava.cz" target="_blank">
+            <img src="./img/skola-logo.png" alt="Skolni logo"></a></p>
+            <p><a href="https://www.sspu-opava.cz" target="_blank">Web skoly</a></p>
+    </footer>
 
-
-<footer>
-    <hr>
-    <p>&copy; 2024 - <b>Richard Gilík</b> , <b><i>IT1</i></b></p>
-    <p><a href="https://www.sspu-opava.cz" target="_blank"><img src="../img/skola-logo.png" alt="Skolni logo"></a>
-    </p>
-    <p><a href="https://www.sspu-opava.cz" target="_blank">Web skoly</a></p>
-</footer>
 </body>
 
 </html>
