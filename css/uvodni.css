@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_640.png');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+  }
+
+/* Nastavení záhlaví*/
+header{
+    background-color: rgb(25, 0, 255);
+    color: rgb(0, 255, 234);
+    text-align: center;
+    text-transform: capitalize;
+}
+header h1{
+    font-size: 3em;
+}
+header p{
+    font-size: 2em;
+}
+
+/* Nastavení hlavní části */
+main{
+    background-color: rgb(21, 0, 255);
+    width: 1200px;
+    margin: 50px auto;
+}
+
+/*Nastavení flexboxu*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-style:ridge;
+    border-top: none;
+    border-color: rgb(0, 102, 255);
+    
+}
+
+.flex-container div {
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    flex: 25%;
+    
+}
+
+/* Responzivní design */
+@media screen and (max-width: 1200px) {
+    main{
+        width: 90%;
+    }
+    .flex-container {
+        flex-direction: column ;
+    }
+}
+
+
