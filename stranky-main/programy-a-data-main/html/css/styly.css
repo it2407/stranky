@@ -1,4 +1,4 @@
-body {
+﻿body {
     width: 100vw;
     height: 100vh;
     background: url('https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_640.png');
@@ -54,3 +54,4 @@ h1, h2, h3{
     background-color: #349773;
     color: white;
 }
+

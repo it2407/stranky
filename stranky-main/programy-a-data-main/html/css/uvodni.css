@@ -30,18 +30,25 @@ main{
     margin: 50px auto;
 }
 
-/* Nastavení Flex boxů */
+/*Nastavení flexboxu*/
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    }
+    border-style:ridge;
+    border-top: none;
+    border-color: rgb(0, 102, 255);
+    
+}
+
 .flex-container div {
-    background-color: aquamarine;
+    background-color: aqua;
     padding: 20px;
     margin: 20px;
-    width: 25%;
-
+    flex: 25%;
+    
 }
+
 /* Responzivní design */
 @media screen and (max-width: 1200px) {
     main{
